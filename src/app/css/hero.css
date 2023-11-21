@@ -85,6 +85,7 @@
     letter-spacing: -0.045em;
     -webkit-text-fill-color: transparent;
     margin-top: 2rem;
+    font-family: 'JetBrains Mono', monospace !important;
 }
 
 .home__scroll {
