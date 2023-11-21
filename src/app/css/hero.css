@@ -1,0 +1,137 @@
+.profile__cont {
+    width: 350px; /* This should be the same as the .imgProfile width */
+    height: 350px; /* This should be the same as the .imgProfile height */
+    border-radius: 50%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.imgProfile {
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.profile__border {
+    background: radial-gradient(circle, rgba(47, 155, 244, 1) 49.58%, rgba(47, 155, 244, 1) 58.82%, rgba(0, 212, 255, 0) 70.59%) !important;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    display: grid;
+    place-items: center;
+    animation-name: scale;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.ProfileImage{
+   position: relative;
+}
+
+@keyframes scale {
+  0% {
+    transform: scale(1);
+ }
+  100% {
+    transform: scale(1.05);
+ }
+}
+
+.profile__profession {
+    font-size: 3rem !important;
+    font-weight: 500;
+    color: var(--first-color) !important;
+    margin-bottom: 1rem;
+}
+
+.profile__social {
+    display: flex;
+    justify-content: center;
+    column-gap: .75rem;
+    margin-top: 2rem;
+    color: var(--first-color) !important;
+}
+
+.profile__social-link {
+    font-size: 3rem;
+    color: var(--first-color-alt) !important;
+    transition: .3s;
+}
+
+.profile__social-link:hover {
+    color: var(--first-color) !important;
+}
+
+.profile-heading {
+    background: linear-gradient(91.36deg, #ECA658 0%, #F391A6 13.02%, #E188C3 25.52%, #A58DE3 37.5%, #56ABEC 49.48%, #737EB7 63.02%, #C8638C 72.92%, #DD5D57 84.38%, #DF6C51 97.92%);
+    background-size: 200% 200%;
+    -webkit-animation: intro-gradient 10s infinite ease both;
+    -moz-animation: intro-gradient 10s infinite ease both;
+    animation: intro-gradient 10s infinite ease both;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -moz-background-clip: text;
+    font-size: 50px;
+    margin-top: 0;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 92px;
+    line-height: 1.1;
+    letter-spacing: -0.045em;
+    -webkit-text-fill-color: transparent;
+    margin-top: 2rem;
+}
+
+.home__scroll {
+    color: var(--first-color) !important;
+    right: -1.5rem;
+    bottom: 4rem;
+    display: grid;
+    row-gap: 0.5rem;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.home__scroll:hover {
+    color: var(--first-color-alt) !important;
+}
+
+.home__scroll-icon {
+    font-size: 1.25rem;
+    animation-name: scroll-down;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.home__scroll-name {
+    font-size: var(--smaller-font-size);
+}
+
+@keyframes intro-gradient {
+    0% {
+        background-position: 0% 4%;
+    }
+    50% {
+        background-position: 100% 97%;
+    }
+    100% {
+        background-position: 0% 4%;
+    }
+}
+
+@keyframes scroll-down {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(10px);
+    }
+}
