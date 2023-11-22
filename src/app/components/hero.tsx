@@ -15,7 +15,7 @@ export default function Hero() {
       </div>
       <div className="mt-9 text-center">
         <h2 className="profile__profession">Developer</h2>
-        <h1 className="profile-heading font-bold">The Front-End Expert.</h1>
+        <h1 className="profile-heading font-bold">The FrontEnd Expert.</h1>
         <ul className="profile__social">
           <a href="https://www.behance.net/simoneradaelli" target="_blank" className="profile__social-link">
             <i className="ri-behance-line"></i>
