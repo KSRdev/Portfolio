@@ -1,5 +1,11 @@
 @media (max-width: 480px) {
 
+  /*========== Nav ==========*/
+
+    #header{
+        display: none !important;
+    }
+
   /*========== Hero ==========*/
 
     #Hero{
