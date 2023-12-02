@@ -1,6 +1,6 @@
 .profile__cont {
-    width: 350px; /* This should be the same as the .imgProfile width */
-    height: 350px; /* This should be the same as the .imgProfile height */
+    width: 300px; /* This should be the same as the .imgProfile width */
+    height: 300px; /* This should be the same as the .imgProfile height */
     border-radius: 50%;
     top: 0;
     left: 0;
@@ -10,8 +10,8 @@
 }
 
 .imgProfile {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-radius: 50%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -19,8 +19,8 @@
 .profile__border {
     background: radial-gradient(circle, rgba(47, 155, 244, 1) 49.58%, rgba(47, 155, 244, 1) 58.82%, rgba(0, 212, 255, 0) 70.59%) !important;
     border-radius: 50%;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     display: grid;
     place-items: center;
     animation-name: scale;
@@ -132,4 +132,7 @@
     100% {
         transform: translateY(10px);
     }
+}
+.mt--2 {
+    margin-top: -3rem !important;
 }
