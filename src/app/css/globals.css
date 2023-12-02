@@ -61,3 +61,10 @@
 html {
   scroll-behavior: smooth !important;
 }
+
+#Hero{
+  scale: 0.8;
+}
+#About{
+  scale: 0.8;
+}
