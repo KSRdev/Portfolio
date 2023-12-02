@@ -88,7 +88,7 @@
 }
 
 .home__scroll {
-    color: var(--first-color) !important;
+    color: var(--first-color-alt) !important;
     bottom: 4rem;
     display: grid;
     justify-items: center;
@@ -97,7 +97,7 @@
 }
 
 .home__scroll:hover {
-    color: var(--first-color-alt) !important;
+    color: var(--first-color) !important;
 }
 
 .home__scroll-icon {

@@ -1,0 +1,34 @@
+.about-me{
+    background: linear-gradient(91.36deg, #ECA658 0%, #F391A6 13.02%, #E188C3 25.52%, #A58DE3 37.5%, #56ABEC 49.48%, #737EB7 63.02%, #C8638C 72.92%, #DD5D57 84.38%, #DF6C51 97.92%) !important;
+    background-size: 200% 200%  !important;
+    -webkit-animation: intro-gradient 10s infinite ease both  !important;
+    -moz-animation: intro-gradient 10s infinite ease both !important;
+    animation: intro-gradient 10s infinite ease both !important;
+    -webkit-background-clip: text !important;
+    background-clip: text !important;
+    -moz-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+}
+@keyframes intro-gradient {
+    0% {
+        background-position: 0% 4%;
+    }
+    50% {
+        background-position: 100% 97%;
+    }
+    100% {
+        background-position: 0% 4%;
+    }
+}
+.about__img {
+    border-radius: 0.5rem;
+}
+/* .showBg{
+    position: "absolute";
+    top: 4;
+    bottom: 4;
+    left: 0;
+    right: 0;
+    background-color: var(--first-color) !important;
+    z-index: 150;
+} */

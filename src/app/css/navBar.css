@@ -1,0 +1,16 @@
+.navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 2rem;
+  position: relative;
+  z-index: 99;
+}
+
+.linksnav:hover{
+    color: var(--first-color) !important;
+    fill: var(--first-color) !important;
+}
+.active{
+    color: var(--first-color) !important;
+}

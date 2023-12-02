@@ -6,12 +6,12 @@ import React, { useState, useEffect } from "react";
 export default function NavBar() {
     
     return (
-        <nav className='navBar flex justify-center items-center pt-6 gap-52'>
-            <a href="http://">About</a>
-            <a href="http://">Skills</a>
-            <Logo />
-            <a href="http://">Work</a>
-            <a href="http://">Contact</a>
+        <nav className='navBar' id='header'>
+            <a className="linksnav" href="#About">About</a>
+            <a className="linksnav" href="http://">Skills</a>
+            <a href="#header"><Logo /></a>
+            <a className="linksnav" href="http://">Work</a>
+            <a className="linksnav" href="http://">Contact</a>
         </nav>
     );
   }

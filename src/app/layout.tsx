@@ -1,8 +1,10 @@
+'use Client'
+import './css/globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
-import './css/globals.css'
 import 'remixicon/fonts/remixicon.css'
-
+import Script from 'next/script'
+import Head from "next/head"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -18,6 +20,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <Head> 
+        <link rel="shortcut icon" href="./favicon.ico" />
+      </Head>
+      <Script async
+          type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.js" />
+      <Script strategy='worker'  async
+          type="text/javascript" src="/script/app.js" />
       <body className={inter.className}>{children}</body>
     </html>
   )
