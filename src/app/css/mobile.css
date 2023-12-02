@@ -5,6 +5,26 @@
     #Hero{
         scale: 0.5 !important;
       }
+      .profile__cont {
+        width: 250px; /* This should be the same as the .imgProfile width */
+        height: 250px; /* This should be the same as the .imgProfile height */
+    }
+    
+    .imgProfile {
+        height: 250px;
+        width: 250px;
+    }
+    
+    .profile__border {
+        width: 300px;
+        height: 300px;
+    }
+    .profile__profession {
+        display: none !important;
+    }
+    .profile-heading {
+        font-size: 70px !important;
+    }
       .mt--2 {
         margin-top: 0 !important;
       }
