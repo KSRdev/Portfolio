@@ -1,0 +1,11 @@
+@media (max-width: 480px) {
+
+  /*========== Hero ==========*/
+
+    #Hero{
+        scale: 0.6 !important;
+      }
+      .home__scroll{
+        scale: 1.5 !important;
+      }
+  }

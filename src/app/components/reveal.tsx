@@ -29,7 +29,7 @@ export const Show = ({ children, width = "100%" }: Props) => {
         initial="hidden"
         animate="visible"
         transition={{
-          duration: 1,
+          duration: 0.5,
           delay: 0.3,
           ease: "easeInOut",
         }}
