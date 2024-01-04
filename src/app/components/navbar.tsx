@@ -1,6 +1,6 @@
 import Logo from './logo'
 import "../css/navBar.css";
-import React, { useState, useEffect } from "react";
+import React from "react";
 
 
 export default function NavBar() {
@@ -10,7 +10,7 @@ export default function NavBar() {
             <a className="linksnav" href="#About">About</a>
             <a className="linksnav" href="http://">Skills</a>
             <a href="#header"><Logo /></a>
-            <a className="linksnav" href="http://">Work</a>
+            <a className="linksnav" href="#Portfolio">Work</a>
             <a className="linksnav" href="http://">Contact</a>
         </nav>
     );

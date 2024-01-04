@@ -62,9 +62,24 @@ html {
   scroll-behavior: smooth !important;
 }
 
-#Hero{
+/* #Hero{
   scale: 0.8;
 }
 #About{
   scale: 0.8;
+}
+#Portfolio{
+  scale: 0.8;
+} */
+
+@media (min-width: 1800px) {
+  #Hero{
+    scale: 1;
+  }
+  #About{
+    scale: 1;
+  }
+  #Portfolio{
+    scale: 1;
+  }
 }

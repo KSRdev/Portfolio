@@ -1,0 +1,37 @@
+/* .horizontal_scroll_container{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overscroll-behavior: none;
+    gap: 2rem;
+}
+.scroll_section{
+    flex: 0 0 auto;
+    display: inline-flex;
+} */
+.linkProject:hover{
+    color: var(--first-color) !important;
+    fill: var(--first-color) !important;
+}
+.active{
+    background-color: var(--first-color) !important;
+    padding: 0.6rem 1rem ;
+    border-radius: 10px;
+    color: #EEEEEE !important;
+}
+.rounded{
+    border-radius: 3rem !important;
+}
+.bg_transparent{
+    background-color: transparent !important;
+}
+.filters [data-content] {
+    display: none;
+  }
+  
+.filters__active[data-content] {
+    display: flex !important;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+  

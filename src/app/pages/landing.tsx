@@ -1,6 +1,8 @@
+"use client"
 import NavBar from "../components/navbar";
 import Hero from "../components/hero";
 import About from "../components/about";
+import Portfolio from "../components/portfolio";
 
 
 
@@ -11,6 +13,7 @@ export default function Landing() {
       <NavBar />
       <Hero />
       <About />
+      <Portfolio />
     </main>
   );
 }

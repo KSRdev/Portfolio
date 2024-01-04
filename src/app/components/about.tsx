@@ -16,6 +16,28 @@ export default function About() {
                 About Me
               </h1>
               <Show>
+              {/* <div className=" border-gray-100 scale-90">
+                  <div className="flex items-center justify-between px-4 py-5 rounded_top bg_white">
+                    <span className="text-sm bg_white">@saturn_ui</span>
+                    <i className="ri-instagram-line bg_white"></i>
+                  </div>
+                  <img
+                    src="/img/about_img.jpeg"
+                    alt=""
+                    className="hidden lg:block about__img"
+                  ></img>
+                  <div className="px-4 pt-4 pb-5 bg_white rounded_down">
+                    <span className="block text-s mb-2.5 bg_white">
+                      This is example post
+                    </span>
+                    <div className="flex items-center bg_white">
+                      <i className="ri-heart-fill text-red-500 bg_white"></i>
+                      <span className="text-sm text-gray-500 bg_white">
+                        12.903
+                      </span>
+                    </div>
+                  </div>
+                </div> */}
                 <img
                   src="/img/about_img.jpeg"
                   alt=""

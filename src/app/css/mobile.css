@@ -2,33 +2,47 @@
 
   /*========== Nav ==========*/
 
-    #header{
-        display: none !important;
-    }
+  #header {
+    display: none !important;
+  }
 
   /*========== Hero ==========*/
 
-    #Hero{
-        scale: 0.6 !important;
-      }
-      .profile__cont {
-        width: 350px; /* This should be the same as the .imgProfile width */
-        height: 350px; /* This should be the same as the .imgProfile height */
-    }
-    
-    .imgProfile {
-        height: 350px;
-        width: 350px;
-    }
-    
-    .profile__border {
-        width: 400px;
-        height: 400px;
-    }
-      .mt--2 {
-        margin-top: 0 !important;
-      }
-      .home__scroll{
-        scale: 1.5 !important;
-      }
+  #Hero {
+    scale: 0.6 !important;
   }
+
+  .profile__cont {
+    width: 350px;
+    /* This should be the same as the .imgProfile width */
+    height: 350px;
+    /* This should be the same as the .imgProfile height */
+  }
+
+  .imgProfile {
+    height: 350px;
+    width: 350px;
+  }
+
+  .profile__border {
+    width: 400px;
+    height: 400px;
+  }
+
+  .mt--2 {
+    margin-top: 0 !important;
+  }
+
+  .home__scroll {
+    scale: 1.5 !important;
+  }
+}
+
+@media (max-width: 1280px) {
+
+  /*========== Project ==========*/
+  .reverse {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+  }
+}
