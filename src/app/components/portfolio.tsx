@@ -113,7 +113,7 @@ export default function Portfolio() {
     //   </div>
     // </section>
     <section
-      className="py-12 md:py-24 h_screen scale-95 lg:scale-100"
+      className="py-12 md:py-24 scale-95 lg:scale-100"
       id="Portfolio"
     >
       <div className="container mx-auto px-4 filters">
