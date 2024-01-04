@@ -5,7 +5,7 @@ import { Show } from "@/app/components/reveal";
 export default function About() {
   return (
     <section
-      className="py-12 md:py-24 h-screen scale-95 lg:scale-100"
+      className="py-12 md:py-24 lg:h-screen scale-95 lg:scale-100"
       id="About"
     >
       <div className="container mx-auto px-4">
