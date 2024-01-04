@@ -11,7 +11,6 @@
   #Hero {
     scale: 0.6 !important;
   }
-
   .profile__cont {
     width: 350px;
     /* This should be the same as the .imgProfile width */
