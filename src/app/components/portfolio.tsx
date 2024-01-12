@@ -135,7 +135,7 @@ export default function Portfolio() {
             <div className="px-4 mb-16 2xl:mb-0">
               <div className="inline-flex mx-auto items-start">
                 <h1 className="font-heading text-6xl md:text-10xl mb-10 tracking-tightest about-me">
-                  Selected projects
+                  Projects
                 </h1>
               </div>
             </div>

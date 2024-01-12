@@ -1,0 +1,9 @@
+.linksnav:hover{
+    color: var(--first-color) !important;
+    fill: var(--first-color) !important;
+}
+.line-color{
+    border-color: var(--first-color-alt) !important;}
+.logo{
+    scale: 1.1;
+}

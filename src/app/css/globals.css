@@ -16,6 +16,8 @@
   --second-hue: 219;
   --first-color: hsl(var(--first-hue), var(--sat), var(--lig));
   --first-color-alt: hsl(var(--first-hue), var(--sat), 71%);
+  --first-color-second: hsl(var(--first-hue), var(--sat), 60%);
+  --first-color-third: hsl(var(--first-hue), var(--sat), 90%);
   /* -4% */
   --title-color: hsl(var(--second-hue), 15%, 95%);
   --text-color: hsl(var(--second-hue), 8%, 75%);

@@ -1,0 +1,108 @@
+.violet{
+    background-color: var(--first-color) !important;
+    border-radius: 10px;
+}
+.violet-submit{
+    background-color: var(--first-color-second) !important;
+    border-radius: 10px;
+}
+.bg-svg{
+    background-color: transparent !important;
+    fill: #EEEEEE !important;
+}
+
+.border-gray-700 {
+    border-color: var(--first-color-alt) !important;
+}
+input:focus {
+    border-color: var(--first-color) !important;
+}
+textarea:focus {
+    border-color: var(--first-color) !important;
+}
+.btn-submit{
+    color: #EEEEEE !important;
+}
+.btn-submit:hover{
+    background-color: var(--first-color) !important;
+}
+.condition-privacy{
+    color: var(--first-color) !important;
+}
+.color-mail{
+    color: var(--first-color-alt) !important;
+}
+.color-mail:hover{
+    color: var(--first-color) !important;
+}
+.check-container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  .check-container {
+    display: flex;
+    gap: 10px;
+  }
+
+  /* Create a custom checkbox */
+.checkmark {
+    position: relative;
+    box-shadow: var(--first-color-alt) 0px 0px 0px 2px !important;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: -1px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    transform-origin: 0px 10px;
+    border-radius: 4px;
+    margin: -1px 10px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .check-container input:checked ~ .checkmark {
+    box-shadow: var(--first-color) 0px 0px 0px 2px !important;
+    background-color:  var(--first-color) !important;
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    flex-shrink: 0;
+    margin-top: -1px;
+    transition: all 0.2s ease 0s;
+    cursor: pointer;
+    transform-origin: 0px 10px;
+    border-radius: 4px;
+    margin: -1px 10px 0px 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  .check-container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .container .checkmark:after {
+    left: 0.45em;
+    top: 0.2em;
+    width: 0.3em;
+    height: 0.7em;
+    border: solid white;
+    border-width: 0 0.15em 0.15em 0;
+    transform: rotate(45deg);
+    transition: all 500ms ease-in-out;
+  }
+  
+  
