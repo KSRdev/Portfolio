@@ -6,7 +6,7 @@ import "../css/hero.css";
 
 export default function Hero() {
   return (
-    <section id="Hero" className="height-screen flex flex-col justify-center items-center mt-12">
+    <section id="Hero" className="height-screen flex flex-col justify-center items-center">
       <div className="ProfileImage grid justify-items-center">
         <div className="profile__border ">
         </div>
