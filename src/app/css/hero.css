@@ -1,5 +1,5 @@
 .height-screen{
-    height: 100dvh;
+    height: 100svh;
 }
 .profile__cont {
     width: 350px; /* This should be the same as the .imgProfile width */
