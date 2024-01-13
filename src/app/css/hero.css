@@ -1,8 +1,6 @@
-/* .height-screen{
-  margin-top: 9rem;
-  margin-bottom: 6rem;
-  
-} */
+.height-screen{
+    height: 100svh;
+}
 .profile__cont {
     width: 350px; /* This should be the same as the .imgProfile width */
     height: 350px; /* This should be the same as the .imgProfile height */

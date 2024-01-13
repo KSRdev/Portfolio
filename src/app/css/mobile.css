@@ -32,7 +32,9 @@
     width: 400px;
     height: 400px;
   }
-
+  .ProfileImage{
+    margin-top: 2rem;
+  }
   .mt--2 {
     margin-top: 0 !important;
   }
