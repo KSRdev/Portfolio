@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="w-full lg:w-3/5 px-4 mb-20 lg:mb-0">
             <div className="">
               <h2 className="font-heading text-6xl md:text-10xl tracking-tightest about-me mb-24">
-                Have a project? Let’s get connect!
+                Have a project? Let&apos;s get connect!
               </h2>
               <div className="flex mb-12 items-center">
                 <div className="flex-shrink-0 flex mr-4 md:mr-8 items-center justify-center w-14 h-14 violet">
