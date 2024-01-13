@@ -10,6 +10,12 @@
 
   #Hero {
     scale: 0.6 !important;
+
+  }
+  .height-screen{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
   }
   .profile__cont {
     width: 350px;
