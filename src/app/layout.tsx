@@ -6,6 +6,7 @@ import { Inter } from "next/font/google";
 import "remixicon/fonts/remixicon.css";
 import Script from "next/script";
 import Head from "next/head";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -60,7 +61,9 @@ export default function RootLayout({
         type="text/javascript"
         src="https://cdn.tailwindcss.com/3.4.0"
       /> */}
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>{children}
+      <SpeedInsights />
+      </body>
     </html>
   );
 }
