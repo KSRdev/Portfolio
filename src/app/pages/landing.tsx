@@ -15,7 +15,6 @@ export default function Landing() {
     <main className="container mx-auto">
       <NavBar />
       <div className="Logo">
-      <Logo />
       </div>
       <Hero />
       <About />
