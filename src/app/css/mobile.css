@@ -5,7 +5,9 @@
   #header {
     display: none !important;
   }
-
+.Logo{
+  display: block !important;
+}
   /*========== Hero ==========*/
 
   #Hero {

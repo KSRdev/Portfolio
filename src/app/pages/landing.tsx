@@ -1,6 +1,7 @@
 "use client"
 import NavBar from "../components/navbar";
 import Hero from "../components/hero";
+import Logo from "../components/logo";
 import About from "../components/about";
 import Portfolio from "../components/portfolio";
 import Contact from "../components/contact";
@@ -13,6 +14,9 @@ export default function Landing() {
   return (
     <main className="container mx-auto">
       <NavBar />
+      <div className="Logo">
+      <Logo />
+      </div>
       <Hero />
       <About />
       <Portfolio />

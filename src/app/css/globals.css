@@ -74,6 +74,10 @@ html {
   scale: 0.8;
 } */
 
+.Logo{
+  display: none ;
+}
+
 @media (min-width: 1800px) {
   #Hero{
     scale: 1;
