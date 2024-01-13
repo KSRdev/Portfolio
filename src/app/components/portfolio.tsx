@@ -2,6 +2,7 @@ import React, { useRef, useEffect } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 import comingSoon from "../image/coming_soon.jpg";
+import dramaTracker from "../image/drama_tracker.jpg";
 import Image from "next/image";
 import "../css/portfolio.css";
 
@@ -113,7 +114,7 @@ export default function Portfolio() {
     //   </div>
     // </section>
     <section
-      className="py-12 md:py-24 h-screen scale-90 lg:scale-100"
+      className="py-12 md:py-24 scale-90 lg:scale-100"
       id="Portfolio"
     >
       <div className="container mx-auto px-4 filters">
@@ -122,13 +123,25 @@ export default function Portfolio() {
             <div className="px-4">
               <ul className="flex flex-wrap -mb-2 items-center justify-end">
                 <li className="mb-2 mr-2 sm:mr-8">
-                  <button className="inline-block py-2.5 active" data-target="#First">First</button>
+                  <button
+                    className="inline-block py-2.5 active"
+                    data-target="#First"
+                  >
+                    Web Application
+                  </button>
                 </li>
                 <li className="mb-2 mr-2 sm:mr-8">
-                  <button className="inline-block py-2.5 linkProject" data-target="#Second">Second</button>
+                  <button
+                    className="inline-block py-2.5 linkProject"
+                    data-target="#Second"
+                  >
+                    Games
+                  </button>
                 </li>
                 <li className="mb-2 mr-2 sm:mr-8">
-                  <button className="inline-block py-2.5 linkProject">Third</button>
+                  <button className="inline-block py-2.5 linkProject">
+                    Third
+                  </button>
                 </li>
               </ul>
             </div>
@@ -141,7 +154,12 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="w-full gap-4 px-4 mb-20 filters__active" data-path="0.0.1.1"  data-content id="First">
+        <div
+          className="w-full gap-4 px-4 mb-20 filters__active"
+          data-path="0.0.1.1"
+          data-content
+          id="First"
+        >
           <div className="group block" data-path="0.0.1.1.0">
             <div
               className="relative mb-6 rounded overflow-hidden"
@@ -150,7 +168,7 @@ export default function Portfolio() {
               <div className="absolute h-full w-full bg_transparent"></div>
               <Image
                 className="block w-full h-full"
-                src={comingSoon}
+                src={dramaTracker}
                 alt=""
                 data-config-id="auto-img-2-4"
                 data-path="0.0.1.1.0.0.1"
@@ -163,7 +181,55 @@ export default function Portfolio() {
                   data-config-id="auto-txt-7-4"
                   data-path="0.0.1.1.0.1.0.0"
                 >
-                  Part-time
+                  Django
+                </span>
+                <span className="inline-block mx-4" data-path="0.0.1.1.0.1.0.1">
+                  <svg
+                    width="3"
+                    height="3"
+                    viewBox="0 0 3 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-config-id="auto-svg-2-4"
+                    data-path="0.0.1.1.0.1.0.1.0"
+                  >
+                    <path
+                      d="M0.896 1.772C0.896 1.632 0.924 1.50133 0.98 1.38C1.036 1.25867 1.11067 1.15133 1.204 1.058C1.30667 0.955333 1.41867 0.876 1.54 0.82C1.67067 0.764 1.806 0.736 1.946 0.736C2.086 0.736 2.21667 0.764 2.338 0.82C2.46867 0.876 2.58067 0.955333 2.674 1.058C2.77667 1.15133 2.856 1.25867 2.912 1.38C2.968 1.50133 2.996 1.632 2.996 1.772C2.996 2.052 2.89333 2.29933 2.688 2.514C2.48267 2.72867 2.23533 2.836 1.946 2.836C1.65667 2.836 1.40933 2.72867 1.204 2.514C0.998667 2.29933 0.896 2.052 0.896 1.772Z"
+                      fill="#646464"
+                      data-path="0.0.1.1.0.1.0.1.0.0"
+                    ></path>
+                  </svg>
+                </span>
+                <span
+                  className="text-sm font-medium text-coolGray-600"
+                  data-config-id="auto-txt-7-4"
+                  data-path="0.0.1.1.0.1.0.0"
+                >
+                  JavaScript
+                </span>
+                <span className="inline-block mx-4" data-path="0.0.1.1.0.1.0.1">
+                  <svg
+                    width="3"
+                    height="3"
+                    viewBox="0 0 3 3"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    data-config-id="auto-svg-2-4"
+                    data-path="0.0.1.1.0.1.0.1.0"
+                  >
+                    <path
+                      d="M0.896 1.772C0.896 1.632 0.924 1.50133 0.98 1.38C1.036 1.25867 1.11067 1.15133 1.204 1.058C1.30667 0.955333 1.41867 0.876 1.54 0.82C1.67067 0.764 1.806 0.736 1.946 0.736C2.086 0.736 2.21667 0.764 2.338 0.82C2.46867 0.876 2.58067 0.955333 2.674 1.058C2.77667 1.15133 2.856 1.25867 2.912 1.38C2.968 1.50133 2.996 1.632 2.996 1.772C2.996 2.052 2.89333 2.29933 2.688 2.514C2.48267 2.72867 2.23533 2.836 1.946 2.836C1.65667 2.836 1.40933 2.72867 1.204 2.514C0.998667 2.29933 0.896 2.052 0.896 1.772Z"
+                      fill="#646464"
+                      data-path="0.0.1.1.0.1.0.1.0.0"
+                    ></path>
+                  </svg>
+                </span>
+                <span
+                  className="text-sm font-medium text-coolGray-600"
+                  data-config-id="auto-txt-7-4"
+                  data-path="0.0.1.1.0.1.0.0"
+                >
+                  HTML/CSS
                 </span>
                 <span className="inline-block mx-4" data-path="0.0.1.1.0.1.0.1">
                   <svg
@@ -187,7 +253,7 @@ export default function Portfolio() {
                   data-config-id="auto-txt-8-4"
                   data-path="0.0.1.1.0.1.0.2"
                 >
-                  Remote
+                  Python
                 </span>
               </div>
               <h3
@@ -195,17 +261,19 @@ export default function Portfolio() {
                 data-config-id="auto-txt-9-4"
                 data-path="0.0.1.1.0.1.1"
               >
-                Althhorpe Street Leamigton Spa
+                Drama Tracker
               </h3>
               <p
                 className="max-w-xl text-coolGray-600"
                 data-config-id="auto-txt-10-4"
                 data-path="0.0.1.1.0.1.2"
               >
-                It is a long established fact that a reader will be distracted
-                by the readable content of a page when looking at its layout.
-                The point of using Lorem Ipsum is that it has a more-or-less
-                normal distribution of letters,
+                This website is a tracker for online dramas and Asian TV series.
+                Users can easily navigate and search for their favorite dramas,
+                and once they register or sign in, they can like and add dramas
+                to their watchlist. This way, they can keep track of what
+                they're watching, what they like, and what they've already
+                watched.
               </p>
             </div>
           </div>
@@ -277,7 +345,12 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-        <div className="w-full px-4 mb-20" data-path="0.0.1.1"  data-content id="Second">
+        <div
+          className="w-full px-4 mb-20"
+          data-path="0.0.1.1"
+          data-content
+          id="Second"
+        >
           <div className="group block" data-path="0.0.1.1.0">
             <div
               className="relative mb-6 rounded overflow-hidden"

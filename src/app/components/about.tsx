@@ -16,7 +16,7 @@ export default function About() {
                 About Me
               </h1>
               <Show>
-              {/* <div className=" border-gray-100 scale-90">
+                {/* <div className=" border-gray-100 scale-90">
                   <div className="flex items-center justify-between px-4 py-5 rounded_top bg_white">
                     <span className="text-sm bg_white">@saturn_ui</span>
                     <i className="ri-instagram-line bg_white"></i>
@@ -50,13 +50,16 @@ export default function About() {
             <div className="max-w-md xl:max-w-xl ml-auto mb-20 text-right">
               <Show>
                 <p className="text-lg">
-                  KW70 Fix is a leading real estate investment firm in the
-                  Americas, headquartered in New York with offices in London,
-                  Chicago, Barcelona, Vienna, Rome, Las Vegas. Lorem ipsum dolor
-                  sit amet, consectetur adipisicing elit. Ea repudiandae porro
-                  asperiores repellendus ducimus molestiae est nulla distinctio
-                  consequatur expedita voluptas ad accusamus laboriosam, sunt
-                  magnam obcaecati cum ipsum! Aliquam.
+                  Hey there! I'm a huge tech enthusiast and currently employed
+                  as a developer at TCS. My ultimate goal is to become a
+                  front-end engineer, and I'm working hard towards achieving
+                  that. Apart from my passion for technology, I have a deep love
+                  for animals, which always brings me joy. I also enjoy
+                  traveling to new places, exploring different cultures, and
+                  trying out delicious food. Oh, and did I mention that I'm a
+                  total foodie? Lastly, photography is another hobby of mine
+                  that allows me to capture beautiful moments and express my
+                  creativity.
                 </p>
               </Show>
             </div>
@@ -66,11 +69,9 @@ export default function About() {
                   <span className="text-2xl text-coolGray-600">01</span>
                   <div className="text-right">
                     <span className="block mb-1 text-2xl tracking-tight">
-                      <span>20+</span>
-                      <span className="text-2xl">m</span>
-                      <sup>2</sup>
+                      <span>7</span>
                     </span>
-                    <span>It is a long established</span>
+                    <span>Traveled destinations.</span>
                   </div>
                 </li>
               </Show>
@@ -79,9 +80,9 @@ export default function About() {
                   <span className="text-2xl text-coolGray-600">02</span>
                   <div className="text-right">
                     <span className="block mb-1 text-2xl tracking-tight">
-                      500+
+                      3
                     </span>
-                    <span>It is a long established</span>
+                    <span>Track record of delivering completed projects.</span>
                   </div>
                 </li>
               </Show>
