@@ -272,7 +272,7 @@ export default function Portfolio() {
                 Users can easily navigate and search for their favorite dramas,
                 and once they register or sign in, they can like and add dramas
                 to their watchlist. This way, they can keep track of what
-                they&apos;re watching, what they like, and what they&apos;ve already
+                they&#39;re watching, what they like, and what they&#39;ve already
                 watched.
               </p>
             </div>

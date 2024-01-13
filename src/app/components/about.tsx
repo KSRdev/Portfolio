@@ -50,13 +50,13 @@ export default function About() {
             <div className="max-w-md xl:max-w-xl ml-auto mb-20 text-right">
               <Show>
                 <p className="text-lg">
-                  Hey there! I&apos;m a huge tech enthusiast and currently employed
+                  Hey there! I&#39;m a huge tech enthusiast and currently employed
                   as a developer at TCS. My ultimate goal is to become a
-                  front-end engineer, and I&apos;m working hard towards achieving
+                  front-end engineer, and I&#39;m working hard towards achieving
                   that. Apart from my passion for technology, I have a deep love
                   for animals, which always brings me joy. I also enjoy
                   traveling to new places, exploring different cultures, and
-                  trying out delicious food. Oh, and did I mention that I&apos;m a
+                  trying out delicious food. Oh, and did I mention that I&#39;m a
                   total foodie? Lastly, photography is another hobby of mine
                   that allows me to capture beautiful moments and express my
                   creativity.
