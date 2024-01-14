@@ -60,25 +60,25 @@ export default function Contact() {
           </div>
           <div className="w-full lg:w-2/5 px-4">
             <div className=" mx-auto">
-              <form name="contact">
-                <label className="block mb-1 text-sm font-medium" htmlFor="">
+              <form name="contact" action="https://formsubmit.co/ks.radaelli@gmail.com" method="POST">
+                <label className="block mb-1 text-sm font-medium" htmlFor="name">
                   Name
                 </label>
                 <input
                   className="block w-full h-12 py-2 px-4 mb-5 text-sm border border-gray-700 rounded-lg outline-none"
-                  type="text"
+                  type="text" name="name" id="name"
                 ></input>
-                <label className="block mb-1 text-sm font-medium" htmlFor="">
+                <label className="block mb-1 text-sm font-medium" htmlFor="email">
                   Email
                 </label>
                 <input
                   className="block w-full h-12 py-2 px-4 mb-5 text-sm border border-gray-700 rounded-lg outline-none"
-                  type="email"
+                  type="email" name="email" id="email"
                 ></input>
-                <label className="block mb-1 text-sm font-medium" htmlFor="">
+                <label className="block mb-1 text-sm font-medium" htmlFor="message">
                   Message
                 </label>
-                <textarea className="w-full h-32 py-2 px-4 mb-5 text-sm border border-gray-700 rounded-lg outline-none resize-none"></textarea>
+                <textarea name="message" id="message" className="w-full h-32 py-2 px-4 mb-5 text-sm border border-gray-700 rounded-lg outline-none resize-none"></textarea>
                 <div className="mb-5">
                   <label className="custom-checkbox flex items-center relative h-8">
                     <label className="check-container">
@@ -97,9 +97,10 @@ export default function Contact() {
                     </p>
                   </label>
                 </div>
+                <input type="hidden" name="_next" value="http://localhost:3000/emailsent.html"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
                 <button
                   className="group inline-flex w-full h-14 px-7 items-center justify-center text-base font-medium violet-submit transition btn-submit"
-                  type="submit"
                 >
                   <span className="mr-2 bg-svg">SUBMIT</span>
                   <svg

@@ -133,7 +133,7 @@ export default function Portfolio() {
                 <li className="mb-2 mr-2 sm:mr-8">
                   <button
                     className="inline-block py-2.5 linkProject"
-                    data-target="#Second"
+                    data-target="#Games"
                   >
                     Games
                   </button>
@@ -349,7 +349,7 @@ export default function Portfolio() {
           className="w-full px-4 mb-20"
           data-path="0.0.1.1"
           data-content
-          id="Second"
+          id="Games"
         >
           <div className="group block" data-path="0.0.1.1.0">
             <div
@@ -404,7 +404,7 @@ export default function Portfolio() {
                 data-config-id="auto-txt-9-4"
                 data-path="0.0.1.1.0.1.1"
               >
-                Second
+                Games
               </h3>
               <p
                 className="max-w-xl text-coolGray-600"
